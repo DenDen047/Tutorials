@@ -9,4 +9,4 @@ RUN pip install -U pip
 RUN apt-get install -y libopenmpi-dev
 RUN pip install mpi4py
 
-USER user
+WORKDIR /root/work
