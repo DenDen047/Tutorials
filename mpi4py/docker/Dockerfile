@@ -1,11 +1,9 @@
-FROM jenkinsci/jenkins
+FROM python
 
 # install via apt
 USER root
 
-# install jenkins plugins
-COPY plugins.txt /usr/share/jenkins/plugins.txt
-RUN /usr/local/bin/plugins.sh /usr/share/jenkins/plugins.txt
+# mpi4py
+RUN pip install mpi4py
 
-# drop back to the regular jenkins user - good practice
-USER jenkins
+USER user

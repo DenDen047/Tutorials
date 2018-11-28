@@ -1,6 +1,6 @@
 .PHONY: build
 
-REPO  ?= denden047/jenkins
+REPO  ?= denden047/mpi4py
 
 build:
 	docker build -t $(REPO) .
