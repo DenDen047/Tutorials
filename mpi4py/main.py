@@ -8,5 +8,6 @@ def main():
 
     print(f"Hello, world! from rank {rank} out of {size}")
 
+
 if __name__ == "__main__":
     main()
