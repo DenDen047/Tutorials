@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CMD="python main.py"
+CMD="mpiexec --allow-run-as-root -np 4 python main.py"
 
 docker run --rm \
     -p 8080:8080 \
