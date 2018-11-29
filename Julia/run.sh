@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CMD="python main.py"
+CMD="julia test.jl"
 
 docker run --rm \
     -v `pwd`:/root/work \
