@@ -1,8 +1,8 @@
 #!/bin/bash
 
-CMD="mpiexec --allow-run-as-root -np 2 python main.py"
+CMD="python main.py"
 
 docker run --rm \
     -v `pwd`:/root/work \
-    denden047/mpi4py \
+    denden047/seaborn \
     /bin/bash -c "${CMD}"
