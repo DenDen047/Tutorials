@@ -2,7 +2,7 @@
 
 CMD="julia test.jl"
 
-docker run --rm \
+docker run -it --rm \
     -v `pwd`:/root/work \
     denden047/julia \
-    /bin/bash -c "${CMD}"
+    # /bin/bash -c "${CMD}"
