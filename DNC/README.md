@@ -1,7 +1,7 @@
-# MPI for Python
+# Differentiable Neural Computer (DNC)
 
 ## 参考リンク
-* https://mpi4py.readthedocs.io/en/stable/tutorial.html
+* https://github.com/deepmind/dnc
 
 ## Docker
-* https://hub.docker.com/r/denden047/mpi4py/
+* https://hub.docker.com/r/denden047/dnc/
