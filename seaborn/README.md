@@ -1,7 +1,7 @@
-# MPI for Python
+# Seaborn
 
 ## 参考リンク
-* https://mpi4py.readthedocs.io/en/stable/tutorial.html
+* https://qiita.com/Ken-Kuroki/items/5b5303312d8802406cfe
 
 ## Docker
-* https://hub.docker.com/r/denden047/mpi4py/
+* https://hub.docker.com/r/denden047/seaborn/
