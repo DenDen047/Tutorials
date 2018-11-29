@@ -1,5 +1,5 @@
 function main()
-    println("Hello World")
+    println("こんにちは")
 end
 
 main()
