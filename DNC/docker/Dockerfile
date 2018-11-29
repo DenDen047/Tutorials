@@ -4,8 +4,15 @@ FROM tensorflow/tensorflow
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y git
 
+# tensorflow-probability
+RUN pip install -U tensorflow
+RUN pip install tensorflow-probability
+
 # sonnet
 RUN pip install dm-sonnet
+
+# other pkgs
+RUN pip install wrapt
 
 # download dnc
 WORKDIR /opt
